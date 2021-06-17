@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.our-blog .para-content{
+    display: grid;
+    place-items: center;
+}
+.para-content img{
+    width: 65px;
+    height: 50px;
+}
+.para-content h1 {
+    
+  margin-top: 14.5px ;
+  /* font-family: 'Libre Baskerville'; */
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.para-content p {
+    max-width: 568px;
+  margin-top: 19px;
+  /* font-family: 'Libre Baskerville'; */
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.blog-details{
+    width: 100%;
+    padding: 5rem 11rem 5rem 11rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blog-details .card {
+flex-basis: 16rem;
+flex-shrink: 0;
+height: 22.5rem;
+/* border: 1px solid blue; */
+border-radius: 15px;
+overflow: hidden;
+}
+.blog-details .card .card-img{
+    width: 100%;
+    height: 12rem;
+}
+.blog-details .card .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width:1220px){
+    .blog-details{
+        padding:5rem 8rem 5rem 8rem;
+    }
+}
+@media (max-width:1040px){
+    .blog-details{
+        padding:5rem 5rem 5rem 5rem;
+    }
+}
+@media (max-width:945px){
+    .blog-details{
+        padding:5rem 3rem 5rem 3rem;
+    }
+}
+@media (max-width:890px){
+    .blog-details{
+        padding:5rem 8rem 5rem 8rem;
+    }
+}
+@media (max-width:790px){
+    .blog-details{
+        padding:5rem 5rem 5rem 5rem;
+    }
+}
+@media (max-width:680px){
+    .blog-details{
+        padding:5rem auto 5rem auto;
+        justify-content: center;
+    }
+}
+.card-details h2{
+    /* font-family: 'Libre Baskerville'; */
+    font-size: 1.125rem;
+    line-height: 1.33;
+    text-align: center;
+    color: #00dbd0;
+    margin: 1.125rem 0 0.563rem 0;
+}
+.card-details .para {
+    width: 11.875rem;
+    margin: auto;
+  /* font-family: 'Libre Baskerville'; */
+  font-size: 0.875rem;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.card-details .read-more {
+  height: 1.188rem;
+  padding: auto;
+  /* font-family: 'Libre Baskerville'; */
+  font-size: 0.875rem;
+  line-height: 1.36;;
+  text-align: center;
+  color: #374b5c;
+  margin-top: 0.688rem;
+}
+.card-details hr {
+    width: 2.25rem;
+  height: 0;
+  margin: 0.656rem auto 0 auto;
+  border: solid 2px #00dbd0;
+}

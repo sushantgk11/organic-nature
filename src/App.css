@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#loading{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background:url("./Assets/Pinwheel.gif") no-repeat center center white;
+  
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-container
+{
+    width: 100%;
+    height: 200vh;
+    background: url('../Assets/Group\ 134.png');
+    background-repeat: no-repeat;
+    background-size:87.5%;
+    background-position-x: -520%;
+}
+@media (max-width:420px)
+{
+    .bg-container {
+        
+        /* background-position-x: -520%; */
+        background-position-y: 50%;
+    }
+    
+}
+@media (max-width:768px)
+{
+    .bg-container {
+        background-position-y: 45%;
+    }
+}

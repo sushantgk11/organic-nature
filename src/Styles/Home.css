@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home {
+  position: static;
+  transform: translateY(-75px);
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+  padding: 0 8.565vw 0 10.176vw;
+  display: grid;
+  place-items: center;
+}
+.contents {
+  width: 100%;
+  min-height: 100vh;
+  /* border: 2px solid blue; */
+  display: flex;
+  place-items: center;
+}
+.para-contents {
+  flex-basis: 40%;
+}
+.para-contents .healthy-life-with {
+  /* font-family: 'Libre Baskerville'; */
+  width: 100%;
+  height: 48px;
+  font-size: 2.635vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.para-contents h1 {
+  width: 100%;
+  height: 74px;
+  font-size: 4.1vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.para-contents .description {
+  width: 90%;
+  height: 54px;
+  margin: 35px 0px 35px 0;
+  /* font-family: 'Libre Baskerville'; */
+  font-size: 1.464vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #374b5c;
+}
+.para-contents .explore-now {
+  width: 16.105vw;
+  height: 54px;
+  /* font-family: 'Libre Baskerville'; */
+  border-radius: 10px;
+  background-color: #00dbd0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: White;
+  font-weight: bold;
+  font-size: 1.4vw;
+}
+.img-contents {
+  /* border: 1px solid rgb(136, 255, 0); */
+  flex-basis: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+}
+.logo-container {
+  width: 28.917vw;
+  height: 386px;
+  margin: 112.9px 17px 0 86.7px;
+  padding: 23px 22px 23px 23px;
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+.inner-container {
+  width: 25.622vw;
+  height: 300px;
+  padding: 64.5px 65.3px 65px 66px;
+  border: 3px solid #00dbd0;
+  display: grid;
+  place-items: center;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to 
+  {
+    transform: rotate(3600deg);
+  }
+}
+.inner-container img {
+  width: 100%;
+  animation: rotate 60s ease infinite ;
+}
+@keyframes move {
+  from {
+    transform: translateY(0px);
+  }
+  50%
+  {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.flower {
+  width: 28.28vw;
+  height: 570px;
+  margin: 122px 337px 5.4px 0;
+  position: absolute;
+  left: 45px;
+  top: 0;
+  z-index: 5;
+  animation: move 3s ease infinite alternate ;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@media (max-width: 1060px) {
+  .home {
+    padding: 0 4.565vw 0 7.176vw;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    padding: 0;
+    margin: 0;
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .para-contents {
+    
+    flex-basis: 100%;
+    width: 100%;
+    order: 2;
+    display: grid;
+    place-items: center;
+  }
+  .img-contents {
+    justify-content: flex-start;
+    flex-basis: 100%;
+    order: 1;
+    /* opacity: 0.4; */
+  }
+  .logo-container {
+    width: 100%;
+    height: 386px;
+  }
+  .inner-container {
+    width: 100%;
+    height: 350px;
+  }
+  .flower {
+    width: 50%;
+    height: 450px;
+  }
+  .para-contents .healthy-life-with {
+    /* font-family: 'Libre Baskerville'; */
+    width: 100%;
+    height: 48px;
+    font-size: 2rem;
+    padding: 0 20px 0 20px;
+    line-height: 1.33;
+    margin-top: 70px;
+    text-align: center;
+  }
+  .para-contents h1 {
+    width: 100%;
+    /* height: 74px; */
+    font-size: 2.5rem;
+    padding: 0 20px 0 20px;
+    line-height: 1.32;
+    text-align: center;
+  }
+  .para-contents .description {
+    width: 100%;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
+  .para-contents .explore-now {
+    width: 13rem;
+    height: 54px;
+    color: White;
+    font-size: 1.5rem;
+    
+  }
+}

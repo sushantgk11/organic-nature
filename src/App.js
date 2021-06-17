@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './Components/About';
+import Bgwrapper from './Components/Bgwrapper';
+import Blog from './Components/Blog';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import Navbar from './Components/Navbar';
+import Product from './Components/Product';
+
 
 function App() {
+  
+  function loadFunc(){
+    var preload = document.getElementById("loading")
+    preload.style.display = "none";
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div onLoad={loadFunc}>
+    <div id="loading"></div>
+    <Navbar/>
+    <Home/>
+    <About />
+    <Product />
+    <Bgwrapper />
+    <Blog />
+    <Footer />
     </div>
   );
 }
