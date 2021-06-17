@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/organic-nature/static/css/main.a8142034.chunk.css",
+    "main.js": "/organic-nature/static/js/main.931a144d.chunk.js",
+    "main.js.map": "/organic-nature/static/js/main.931a144d.chunk.js.map",
+    "runtime-main.js": "/organic-nature/static/js/runtime-main.27a02e9d.js",
+    "runtime-main.js.map": "/organic-nature/static/js/runtime-main.27a02e9d.js.map",
+    "static/css/2.d2f68b17.chunk.css": "/organic-nature/static/css/2.d2f68b17.chunk.css",
+    "static/js/2.e1b8bc5b.chunk.js": "/organic-nature/static/js/2.e1b8bc5b.chunk.js",
+    "static/js/2.e1b8bc5b.chunk.js.map": "/organic-nature/static/js/2.e1b8bc5b.chunk.js.map",
+    "static/js/3.909268e0.chunk.js": "/organic-nature/static/js/3.909268e0.chunk.js",
+    "static/js/3.909268e0.chunk.js.map": "/organic-nature/static/js/3.909268e0.chunk.js.map",
+    "index.html": "/organic-nature/index.html",
+    "static/css/2.d2f68b17.chunk.css.map": "/organic-nature/static/css/2.d2f68b17.chunk.css.map",
+    "static/css/main.a8142034.chunk.css.map": "/organic-nature/static/css/main.a8142034.chunk.css.map",
+    "static/js/2.e1b8bc5b.chunk.js.LICENSE.txt": "/organic-nature/static/js/2.e1b8bc5b.chunk.js.LICENSE.txt",
+    "static/media/Bgwrapper.css": "/organic-nature/static/media/Group 134.efbd04e6.png",
+    "static/media/Group 195.71ea1be1.png": "/organic-nature/static/media/Group 195.71ea1be1.png",
+    "static/media/Group 228.317690fe.png": "/organic-nature/static/media/Group 228.317690fe.png",
+    "static/media/Footer.css": "/organic-nature/static/media/Group 229.3fc7b986.png",
+    "static/media/App.css": "/organic-nature/static/media/Pinwheel.21e3df13.gif",
+    "static/media/blog_img1.3ab5b9d1.png": "/organic-nature/static/media/blog_img1.3ab5b9d1.png",
+    "static/media/blog_img2.426912a6.png": "/organic-nature/static/media/blog_img2.426912a6.png",
+    "static/media/blog_img3.220d3af2.png": "/organic-nature/static/media/blog_img3.220d3af2.png",
+    "static/media/profile4.bee7716a.jpg": "/organic-nature/static/media/profile4.bee7716a.jpg",
+    "static/media/slick-theme.css": "/organic-nature/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27a02e9d.js",
+    "static/css/2.d2f68b17.chunk.css",
+    "static/js/2.e1b8bc5b.chunk.js",
+    "static/css/main.a8142034.chunk.css",
+    "static/js/main.931a144d.chunk.js"
+  ]
+}
