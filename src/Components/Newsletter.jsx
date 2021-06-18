@@ -7,12 +7,12 @@ import { useEffect } from 'react';
 function Newsletter() {
     useEffect(() => {
         Aos.init({
-            duration : 1000
+            duration : 500
           })
     }, [])
   return (
     <>
-      <div className="container"data-aos='slide-right' >
+      <div className="container" data-aos='zoom-in' >
         <h1>Subscribe to Our Newsletter</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 function Blog() {
     useEffect(() => {
         Aos.init({
-            duration : 2000
+            duration : 700
           })
     }, [])
   return (

@@ -48,7 +48,7 @@ function Product() {
 
   useEffect(() => {
     Aos.init({
-        duration : 1000
+        duration : 700
       })
 }, [])
   return (
@@ -61,7 +61,7 @@ function Product() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="slider" data-aos='flip-left'>
+        <div className="slider" data-aos='fade-up'>
           <Slider {...setting} className="inner-slider" >
             <div className="slide-item">
               <div className="inner-item">
