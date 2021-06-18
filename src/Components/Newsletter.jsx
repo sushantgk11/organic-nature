@@ -12,7 +12,7 @@ function Newsletter() {
     }, [])
   return (
     <>
-      <div className="container" data-aos='zoom-in' >
+      <div className="container" data-aos='fade-up' >
         <h1>Subscribe to Our Newsletter</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

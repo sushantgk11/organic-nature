@@ -61,14 +61,14 @@ function Product() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="slider" data-aos='fade-up'>
+        <div className="slider">
           <Slider {...setting} className="inner-slider" >
             <div className="slide-item">
               <div className="inner-item">
                 <img src={img1} alt="" />
               </div>
             </div>
-            <div className="slide-item">
+            <div className="slide-item" >
               <div className="inner-item">
                 <img src={img2} alt="" />
               </div>
