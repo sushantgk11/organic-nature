@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/organic-nature/static/css/main.a8142034.chunk.css",
-    "main.js": "/organic-nature/static/js/main.931a144d.chunk.js",
-    "main.js.map": "/organic-nature/static/js/main.931a144d.chunk.js.map",
+    "main.js": "/organic-nature/static/js/main.e4d6a327.chunk.js",
+    "main.js.map": "/organic-nature/static/js/main.e4d6a327.chunk.js.map",
     "runtime-main.js": "/organic-nature/static/js/runtime-main.27a02e9d.js",
     "runtime-main.js.map": "/organic-nature/static/js/runtime-main.27a02e9d.js.map",
     "static/css/2.d2f68b17.chunk.css": "/organic-nature/static/css/2.d2f68b17.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.d2f68b17.chunk.css",
     "static/js/2.e1b8bc5b.chunk.js",
     "static/css/main.a8142034.chunk.css",
-    "static/js/main.931a144d.chunk.js"
+    "static/js/main.e4d6a327.chunk.js"
   ]
 }
